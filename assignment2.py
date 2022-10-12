@@ -4,21 +4,41 @@
 # Replace the 3rd student
 # Check if a certain student is not existing , add the student
 #
-students = ["Mark", "George", "James", "Andrew", "Mateo", "Richard"]
+# students = ["Mark", "George", "James", "Andrew", "Mateo", "Richard"]
+#
+# students.append("Alex")
+# students.append("Peter")
+# print(students)
+#
+# print(students[3:7])
+#
+# students[2] = "Timothy"
+# print(students)
+#
+# if " James" not in students:
+#     students.append("Max")
+#     print(students)
+# print(students)
 
-students.append("Alex")
-students.append("Peter")
-print(students)
+numbers = ["0ne", "two", "three", "four", "five"]
+numbers.append("zero")
+numbers.append("ten")
+print(numbers)
 
-print(students[3:7])
+print(numbers[3:6])
 
-students[2] = "Timothy"
-print(students)
+numbers[3] = "six"
+print(numbers)
 
-if " James" not in students:
-    students.append("Max")
-    print(students)
-print(students)
+# if "seven " not in numbers:
+#     numbers.append()
+#     print(numbers)
+
+
+
+
+
+
 
 
 
